@@ -115,7 +115,9 @@ Burn tokens from a specified address:
 Check Balance after Burning Tokens
 
  solidity
+ 
  MyToken.balance(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
+ 
  click on the "transact" button to execute the balance and retrieve the token details .
 
 ## License
