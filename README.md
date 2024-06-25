@@ -41,6 +41,7 @@ pragma solidity ^0.8.7;
 
 /*
        REQUIREMENTS
+       
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     
     2. Your contract will have a mapping of addresses to balances (address => uint)
@@ -57,7 +58,10 @@ pragma solidity ^0.8.7;
        to the amount that is supposed to be burned.
 */
 
-contract MyToken {
+
+
+contract MyToken
+{
     // public variables here
 
     string public tokenName= "Garv";
@@ -104,12 +108,12 @@ Burn tokens from a specified address:
 
     solidity
     MyToken.burn(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, 250);
- click on the "transact" button to execute the function burn and retrieve the token details .
+    click on the "transact" button to execute the function burn and retrieve the token details .
  
 Check Balance after Burning Tokens
 
  solidity
-    MyToken.balance(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
+ MyToken.balance(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
  click on the "transact" button to execute the balance and retrieve the token details .
 
 ## License
