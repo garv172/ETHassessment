@@ -59,9 +59,9 @@ pragma solidity ^0.8.7;
 */
 
 
-
 contract MyToken
 {
+
     // public variables here
 
     string public tokenName= "Garv";
@@ -91,6 +91,8 @@ contract MyToken
 }
   
 
+
+
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. 
 Make sure the "Compiler" option is set to "^0.8.7", and then click on the "ETHassessment.sol" button.
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. 
@@ -113,7 +115,9 @@ Burn tokens from a specified address:
 Check Balance after Burning Tokens
 
  solidity
+ 
  MyToken.balance(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
+ 
  click on the "transact" button to execute the balance and retrieve the token details .
 
 ## License
